@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "hello-zundamon": {
+      "command": "/home/maru/.local/bin/uv",
+      "args": [
+        "--directory",
+        "/home/maru/py/langchain/mcp",
+        "run",
+        "hello_mcp_server.py"
+      ],
+      "env": {}
+    }
+  }
+}

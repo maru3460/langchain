@@ -1,0 +1,16 @@
+[project]
+name = "langchain"
+version = "0.1.0"
+description = "https://gihyo.jp/book/2024/978-4-297-14530-9"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.54.0",
+    "jupyterlab>=4.4.3",
+    "mcp>=1.9.4",
+    "python-dotenv>=1.1.0",
+    "ruff>=0.11.13",
+]
+
+[tool.ruff]
+extend-include = ["*.ipynb"]
