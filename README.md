@@ -21,7 +21,8 @@ uv add ...
 uv run main.py
 
 # ruffの実行
-uv run ruff check
+uv run ruff format
+uv run ruff check --fix
 
 # uv.lockのパッケージをインストール
 uv sync
